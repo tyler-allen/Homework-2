@@ -15,6 +15,7 @@ public class Cylinder {
      */
     public Cylinder(double radius, double height){
         this.waterHeight = 0;
+        System.out.println("Created Cylinder of radius: " + radius);
         if (radius > 0 && height > 0){
             this.radius = radius;
             this.height = height;
